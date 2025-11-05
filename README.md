@@ -32,12 +32,12 @@ We replicate the paper’s core **“Baseline + DA” (Data Augmentation)** expe
 
 To rigorously test the methodology, we follow the paper's analogy by fine-tuning our single ASR base model on two different languages:
 
-### **Scenario 1: In-Domain Pre-training (Analogy: Portuguese)**  
+### **Scenario 1: In-Domain Pre-training**  
 - **Language:** Hindi  
 - **Setup:** The `ai4bharat/indic-wav2vec-hindi` model was pre-trained on Hindi.  
   This tests the augmentation method on a language the model is already familiar with.
 
-### **Scenario 2: Zero-Shot Fine-tuning (Analogy: Russian)**  
+### **Scenario 2: Zero-Shot Fine-tuning **  
 - **Language:** Bengali  
 - **Setup:** The `ai4bharat/indic-wav2vec-hindi` model was *not* pre-trained on Bengali.  
   This tests the method's effectiveness when fine-tuning on a completely unseen language.
