@@ -70,7 +70,7 @@ For both **Hindi** and **Bengali**, we follow these steps:
 ## 📊 Results
 
 The baseline models (trained only on limited single-speaker data) show extremely high **Word Error Rates (WER)**, indicating overfitting.  
-The Bengali baseline WER is higher since the ASR model had no prior exposure to Bengali.
+The Bengali baseline WER is higher since the ASR model had less exposure to Bengali.
 
 After augmentation, the WER drops dramatically — confirming the effectiveness of the proposed pipeline.
 
