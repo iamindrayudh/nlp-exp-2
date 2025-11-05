@@ -18,7 +18,7 @@ We replicate the paper’s core **“Baseline + DA” (Data Augmentation)** expe
 ## 🧩 Models Used
 
 - **ASR Model:**  
-  [`ai4bharat/indic-wav2vec-hindi`](https://huggingface.co/ai4bharat/indic-wav2vec-hindi)  
+  [`ai4bharat/indic-wav2vec-hindi`](https://huggingface.co/ai4bharat/indicwav2vec-hindi)  
   Used as the base pre-trained model for all ASR fine-tuning tasks.  
   (Architecture: *Wav2Vec 2.0*)
 
