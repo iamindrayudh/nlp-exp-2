@@ -1,0 +1,10 @@
+transformers
+datasets
+accelerate
+torch
+TTS
+pandas
+librosa
+scipy
+numpy
+tqdm

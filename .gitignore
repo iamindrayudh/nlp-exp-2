@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+*.env
+venv/
+env/
+
+# Data
+# We track metadata, but ignore the actual audio files
+data/*
+!data/metadata/
+!data/.gitkeep
+
+# Models
+# Ignore all model files
+models/*
+!models/.gitkeep
+
+# Outputs
+# Ignore all training outputs
+outputs/*
+!outputs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS-specific
+.DS_Store
+Thumbs.db
